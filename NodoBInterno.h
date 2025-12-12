@@ -1,4 +1,5 @@
 #include "NodoBPlusBase.h"
+#pragma once
 
 class NodoBInterno: public NodoBPlusBase { 
 public: 
