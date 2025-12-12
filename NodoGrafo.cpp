@@ -43,4 +43,8 @@ void NodoGrafo::agregarPadre(int idPadre) {
     nPadres++;
     padres[nPadres] = -1;}
 
+int NodoGrafo::getId() {
+    return id;
+}
+
 
