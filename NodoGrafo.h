@@ -1,3 +1,4 @@
+#pragma once
 class NodoGrafo {
 private:
     int id;
