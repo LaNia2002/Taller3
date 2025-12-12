@@ -59,7 +59,7 @@ int main()
             case 7:
                 
                 break;
-            case 9:
+            case 8:
                 
                 break;
 
