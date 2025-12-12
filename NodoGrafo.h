@@ -1,11 +1,20 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+class NodoGrafo {
+private:
+    int id;
 
-class NodoGrafo{ 
-private: 
-    int id; 
-public: 
-    bool es_directorio();
-    vector<int> lista_padres; 
-}; 
+    int* padres;
+    int nPadres;
+    int capPadres;
+
+    void crecerNumeroDePadres();
+
+public:
+    NodoGrafo(int id);
+    virtual ~NodoGrafo();
+
+    virtual bool es_directorio();
+    int* lista_padres();
+
+    void agregarPadre(int idPadre);
+    int cantidadPadres();
+};
