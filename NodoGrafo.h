@@ -17,4 +17,5 @@ public:
 
     void agregarPadre(int idPadre);
     int cantidadPadres();
+    int getId(); 
 };
