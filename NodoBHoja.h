@@ -1,5 +1,6 @@
 #include "NodoBPlusBase.h"
 #include "NodoGrafo.h"
+#pragma once
 
 class NodoBHoja: public NodoBPlusBase { 
 public: 
